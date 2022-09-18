@@ -568,6 +568,7 @@ footer{
     section.skills .content .left .inner-left {
         margin-bottom: 3rem;
     }
+    
  
 }
 @media(max-width: 479px){
@@ -612,6 +613,10 @@ footer{
     section.about .content .right p span:nth-child(2){
         padding-left: 110px;
     }
+    section.skills .content .right {
+        
+        margin-top: -12rem;
+    }
     
 }
 @media(max-width: 386px){
@@ -639,9 +644,7 @@ footer{
         width: 100px;
         height: 100px;
     }
-    .section__heading::before{
-        top: 35px;
-    }    
+       
 }
 @media(max-width: 341px){
     section.work .wrapper .portfolio .portfolio__wrapper{
