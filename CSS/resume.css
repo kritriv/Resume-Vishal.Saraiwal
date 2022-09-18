@@ -590,19 +590,11 @@ footer{
     section.about .content .right p{
         font-size: 12px;
     }
-}
-@media(max-width: 401px){
-    section.about .content .right p{
-        font-size: 10px;
-    }
-    section.profile .right ul li:nth-child(1), section.profile .right ul li:nth-child(2){
-        font-size: 12px;
-    }
-    section.profile .right ul li:nth-child(1) img, section.profile .right ul li:nth-child(2) img{
-        width: 18px;
-        height: 18px;
+    section.work .wrapper .portfolio .portfolio__wrapper{
+        margin-left: 4rem;
     }
 }
+
 @media(max-width: 401px){
     section.profile .right ul li:nth-child(1), section.profile .right ul li:nth-child(2){
         font-size: 10px;
@@ -611,11 +603,62 @@ footer{
         width: 14px;
         height: 14px;
     }
-    
-}
-
-@media(max-width: 386px){
     section.about .content .right p{
         font-size: 8px;
+    }
+    section.about .content .right p span:nth-child(1){
+        width: 80px;
+    }
+    section.about .content .right p span:nth-child(2){
+        padding-left: 110px;
+    }
+    
+}
+@media(max-width: 386px){
+   
+    section.about .content .right p span:nth-child(1){
+        width: 80px;
+    }
+    section.about .content .right p span:nth-child(2){
+        padding-left: 100px;
+    }
+    section.work .wrapper .portfolio .portfolio__wrapper{
+        margin-left: 3rem;
+    }
+}
+@media(max-width: 371px){
+    section.about .content .right p{
+        font-size: 9px;
+    }
+}
+@media(max-width: 356px){
+    section.work .wrapper .portfolio .portfolio__wrapper{
+        margin-left: 2.5rem;
+    }
+    section.profile .left img {
+        width: 100px;
+        height: 100px;
+    }
+    .section__heading::before{
+        top: 35px;
+    }    
+}
+@media(max-width: 341px){
+    section.work .wrapper .portfolio .portfolio__wrapper{
+        margin-left: 2rem;
+    }
+    section.about .content .right p span:nth-child(1) {
+        width: 60px;
+    }
+    section.about .content .right p span:nth-child(2){
+        padding-left: 80px;
+    }
+    section.contact .wrapper .left h4 + span{
+        font-size: 12px;
+    }
+}
+@media(max-width: 323px){
+    section.work .wrapper .portfolio .portfolio__wrapper{
+        margin-left: 1.5rem;
     }
 }
